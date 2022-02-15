@@ -22,8 +22,9 @@ public class Hello3 {
     }
     //매개변수 x
 
-    void maxnumber(){
+    int maxnumber(){
         int result = maxNumber(10,20);
+        return result;
     }
     // 리턴타입 , 매개변수 x
 }
