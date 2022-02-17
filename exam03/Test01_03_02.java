@@ -1,7 +1,7 @@
 package exam03;
 
-public class Test01_03 {
-
+public class Test01_03_02 {
+    
     public static void main(String[] args){
 
         String speech = "";
@@ -269,36 +269,88 @@ public class Test01_03 {
         
 
         countSum = countA + countB + countC + countD + countE + countF + countG + countH + countI + countJ + countK + countL + countM + countN + countO + countP + countQ + countR + countS + countT + countU + countV + countW + countX + countY + countZ;
-         
-        System.out.printf("A: "+countA+"개 , "+ "%2.2f",(float)(100*(float)countA/(float)countSum));
+        
+        
+
+        System.out.printf("A: "+countA+"개 , "+ "%4.2f" + "%%",((float)(100*countA)/(float)countSum));
         System.out.printf("%%");
         System.out.println();
-        System.out.printf("B: "+countA+"개 , "+ "%2f",(countB/countSum) +"\n");
-        System.out.printf("C: "+countA+"개 , "+ "%2f",(countC/countSum) +"\n");
-        System.out.printf("D: "+countA+"개 , "+ "%2f",(countD/countSum) +"\n");
-        System.out.printf("E: "+countA+"개 , "+ "%2f",(countE/countSum) +"\n");
-        System.out.printf("F: "+countA+"개 , "+ "%2f",(countF/countSum) +"\n");
-        System.out.printf("G: "+countA+"개 , "+ "%2f",(countG/countSum) +"\n");
-        System.out.printf("H: "+countA+"개 , "+ "%2f",(countH/countSum) +"\n");
-        System.out.printf("I: "+countA+"개 , "+ "%2f",(countI/countSum) +"\n");
-        System.out.printf("J: "+countA+"개 , "+ "%2f",(countJ/countSum) +"\n");
-        System.out.printf("K: "+countA+"개 , "+ "%2f",(countK/countSum) +"\n");
-        System.out.printf("L: "+countA+"개 , "+ "%2f",(countL/countSum) +"\n");
-        System.out.printf("M: "+countA+"개 , "+ "%2f",(countM/countSum) +"\n");
-        System.out.printf("N: "+countA+"개 , "+ "%2f",(countN/countSum) +"\n");
-        System.out.printf("O: "+countA+"개 , "+ "%2f",(countO/countSum) +"\n");
-        System.out.printf("P: "+countA+"개 , "+ "%2f",(countP/countSum) +"\n");
-        System.out.printf("Q: "+countA+"개 , "+ "%2f",(countQ/countSum) +"\n");
-        System.out.printf("R: "+countA+"개 , "+ "%2f",(countR/countSum) +"\n");
-        System.out.printf("S: "+countA+"개 , "+ "%2f",(countS/countSum) +"\n");
-        System.out.printf("T: "+countA+"개 , "+ "%2f",(countT/countSum) +"\n");
-        System.out.printf("U: "+countA+"개 , "+ "%2f",(countU/countSum) +"\n");
-        System.out.printf("V: "+countA+"개 , "+ "%2f",(countV/countSum) +"\n");
-        System.out.printf("W: "+countA+"개 , "+ "%2f",(countW/countSum) +"\n");
-        System.out.printf("X: "+countA+"개 , "+ "%2f",(countX/countSum) +"\n");
-        System.out.printf("Y: "+countA+"개 , "+ "%2f",(countY/countSum) +"\n");
-        System.out.printf("Z: "+countA+"개 , "+ "%2f",(countZ/countSum) +"\n");
+        System.out.printf("B: "+countB+"개 , "+ "%4.2f",((float)(100*countB)/(float)countSum));
+        System.out.printf("%%");
+        System.out.println();
+        System.out.printf("C: "+countC+"개 , "+ "%2.2f",((float)(100*countC)/(float)countSum));
+        System.out.printf("%%");
+        System.out.println();
+        System.out.printf("D: "+countD+"개 , "+ "%2.2f",((float)(100*countD)/(float)countSum));
+        System.out.printf("%%");
+        System.out.println();
+        System.out.printf("E: "+countE+"개 , "+ "%2.2f",((float)(100*countE)/(float)countSum));
+        System.out.printf("%%");
+        System.out.println();
+        System.out.printf("F: "+countF+"개 , "+ "%2.2f",((float)(100*countF)/(float)countSum));
+        System.out.printf("%%");
+        System.out.println();
+        System.out.printf("G: "+countG+"개 , "+ "%2.2f",((float)(100*countG)/(float)countSum));
+        System.out.printf("%%");
+        System.out.println();
+        System.out.printf("H: "+countH+"개 , "+ "%2.2f",((float)(100*countH)/(float)countSum));
+        System.out.printf("%%");
+        System.out.println();
+        System.out.printf("I: "+countI+"개 , "+ "%2.2f",((float)(100*countI)/(float)countSum));
+        System.out.printf("%%");
+        System.out.println();
+        System.out.printf("J: "+countJ+"개 , "+ "%2.2f",((float)(100*countJ)/(float)countSum));
+        System.out.printf("%%");
+        System.out.println();
+        System.out.printf("K: "+countK+"개 , "+ "%2.2f",((float)(100*countK)/(float)countSum));
+        System.out.printf("%%");
+        System.out.println();
+        System.out.printf("L: "+countL+"개 , "+ "%2.2f",((float)(100*countL)/(float)countSum));
+        System.out.printf("%%");
+        System.out.println();
+        System.out.printf("M: "+countM+"개 , "+ "%2.2f",((float)(100*countM)/(float)countSum));
+        System.out.printf("%%");
+        System.out.println();
+        System.out.printf("N: "+countN+"개 , "+ "%2.2f",((float)(100*countN)/(float)countSum));
+        System.out.printf("%%");
+        System.out.println();
+        System.out.printf("O: "+countO+"개 , "+ "%2.2f",((float)(100*countO)/(float)countSum));
+        System.out.printf("%%");
+        System.out.println();
+        System.out.printf("P: "+countP+"개 , "+ "%2.2f",((float)(100*countP)/(float)countSum));
+        System.out.printf("%%");
+        System.out.println();
+        System.out.printf("Q: "+countQ+"개 , "+ "%2.2f",((float)(100*countQ)/(float)countSum));
+        System.out.printf("%%");
+        System.out.println();
+        System.out.printf("R: "+countR+"개 , "+ "%2.2f",((float)(100*countR)/(float)countSum));
+        System.out.printf("%%");
+        System.out.println();
+        System.out.printf("S: "+countS+"개 , "+ "%2.2f",((float)(100*countS)/(float)countSum));
+        System.out.printf("%%");
+        System.out.println();
+        System.out.printf("T: "+countT+"개 , "+ "%2.2f",((float)(100*countT)/(float)countSum));
+        System.out.printf("%%");
+        System.out.println();
+        System.out.printf("U: "+countU+"개 , "+ "%2.2f",((float)(100*countU)/(float)countSum));
+        System.out.printf("%%");
+        System.out.println();
+        System.out.printf("V: "+countV+"개 , "+ "%2.2f",((float)(100*countV)/(float)countSum));
+        System.out.printf("%%");
+        System.out.println();
+        System.out.printf("W: "+countW+"개 , "+ "%2.2f",((float)(100*countW)/(float)countSum));
+        System.out.printf("%%");
+        System.out.println();
+        System.out.printf("X: "+countX+"개 , "+ "%2.2f",((float)(100*countX)/(float)countSum));
+        System.out.printf("%%");
+        System.out.println();
+        System.out.printf("Y: "+countY+"개 , "+ "%2.2f",((float)(100*countY)/(float)countSum));
+        System.out.printf("%%");
+        System.out.println();
+        System.out.printf("Z: "+countZ+"개 , "+ "%2.2f",((float)(100*countZ)/(float)countSum));
+        System.out.printf("%%");
+        System.out.println();
 
     }
-    
+
 }
