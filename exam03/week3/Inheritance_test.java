@@ -11,6 +11,7 @@ public class Inheritance_test {
         staff1.name = "아무개";
 
         System.out.println(staff1.name);
+        
    }
     
 }

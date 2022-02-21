@@ -24,6 +24,7 @@ public class 신용카드{
 
     private void 포인트적립(long 포인트금액){
         누적포인트 += 포인트금액;
+        
 
     }
 
