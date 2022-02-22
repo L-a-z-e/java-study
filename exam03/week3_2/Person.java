@@ -17,4 +17,9 @@ public class Person {
     public long getNumber(){
         return number;
     }
+
+    public void printInformation(){
+        System.out.println("이름 :"+name);
+        System.out.println("주민번호 :"+number);
+    }
 }
