@@ -8,14 +8,12 @@ import java.io.IOException;
 public class Test02 {
 
     public static void main(String[] args){
-
-
-
+        // 파일저장
         try{
             File file = new File("property.html");
             BufferedWriter writer = new BufferedWriter(new FileWriter(file));
             writer.write("<html>");
-            writer.write("\r\n\t<head>");
+            writer.write("\r\n\t<head>"); // html 생성시 head 태그에 테이블라인 표시되도록 추가
             writer.write("\r\n\t<meta charset=\"UTF-8\"/>");
             writer.write("\r\n\t<style>\r\n\t\t");
             writer.write("table { border-collapse: collapse; with:100%; }");
@@ -28,7 +26,7 @@ public class Test02 {
             writer.write("\r\n\t\t\t<th> 키 </th>");
             writer.write("<th>  </th>");
             
-
+          //자바 시스템 속성값 출력
             for (Object k : System.getProperties().keySet()){
 
                 String key = k.toString();
