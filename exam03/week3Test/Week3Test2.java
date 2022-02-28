@@ -6,9 +6,11 @@ class Point {
      double x = 0;
      double y = 0;
 
+    
+
     Point initPoint(double x, double y){
-         x = this.x;
-         y = this.y;
+         this.x = x;
+         this.y = y;
 
          return this;
          
