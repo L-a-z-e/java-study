@@ -10,7 +10,7 @@ public class Week3Test3 {
         for(int i=0 ; i < points.length ; i++){
             points[i]= new Point();
         }
-
+        int minimumXY = 0;
         double myX;
         double myY;
         double tempX;
@@ -55,6 +55,18 @@ public class Week3Test3 {
             distance[i] = getDistance(myX,myY,points[i].x,points[i].y);
             System.out.println("거리는"+distance[i]);    
         }
+
+        for (int i = 0 ; i < points.length ; i++){
+            System.out.println("("+points[i].x+","+points[i].y+") =>"+distance[i]);
+            double leastDistance = distance[0];
+            if (leastDistance > distance[i]){
+                minimumXY = i;
+                leastDistance = distance[i];
+            }
+        }
+
+        System.out.println("제일 가까운 좌표 :");
+        System.out.println("("+points[minimumXY].x+","+points[minimumXY].y+") =>"+ distance[minimumXY]);
 
 
 
