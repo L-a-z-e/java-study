@@ -25,9 +25,9 @@ public class Static_example {
         number1.num2++;
         Number.num++;
         number2.num2++;
-        System.out.println(Number.num);
+        System.out.println(Number.num); // number1.num -> should be accessed in a static way 경고
         System.out.println(number1.num2);
-        System.out.println(Number.num);
+        System.out.println(Number.num); // number2.num -> should be accessed in a static way 경고
         System.out.println(number2.num2);
 
         Name.print();
