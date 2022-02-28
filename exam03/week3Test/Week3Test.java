@@ -3,8 +3,8 @@ package exam03.week3Test;
 import java.util.Scanner;
 
 class Point {
-    static double x;
-    static double y;
+     double x;
+     double y;
 } // 포인트 배열 저장하기 위해 클래스 선언
 
 public class Week3Test {
