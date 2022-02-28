@@ -2,13 +2,14 @@ package exam03.week3Test;
 
 import java.util.Scanner;
 
+class Point {
+    static double x;
+    static double y;
+} // 포인트 배열 저장하기 위해 클래스 선언
 
 public class Week3Test {
 
-    class Point {
-        double x;
-        double y;
-    } // 포인트 배열 저장하기 위해 클래스 선언
+
 
     public void minimumDistance(double distance[]){
 
@@ -42,7 +43,7 @@ public class Week3Test {
         System.out.println("내 좌표 Y값을 입력해주세요"); //나의 좌표 값 입력 Y
         point[0].y = scanner.nextDouble();
 
-        for (int i=1 ; i<10 ; i++){
+        for (int i=0 ; i<10 ; i++){
             double tempX;
             double tempY;
             
@@ -65,6 +66,11 @@ public class Week3Test {
 
             point[i].x = tempX;
             point[i].y = tempY;
+        }
+
+        for (int i = 0 ; i < point.length ; i++)
+        {
+            System.out.println(point[i].x+","+point[i].y);
         }
 
         
