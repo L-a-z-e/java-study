@@ -25,12 +25,12 @@ public class Fruit_Test {
         Fruit fruit2 = new Apple();
         Fruit fruit3 = new Banana();
 
-        
+        checkFruit(fruit1);
         checkFruit(fruit2);
         checkFruit(fruit3);
 
 
-        Fish fish1 = new Fish();
+        // Fish fish1 = new Fish();
         // checkFruit(fish1); 상속관계가 없으므로 에러
 
 

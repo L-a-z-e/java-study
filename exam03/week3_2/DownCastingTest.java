@@ -22,7 +22,7 @@ public class DownCastingTest {
 
 
         Person man1 = new Person("오류",1122);
-        Staff errorMan1 = (Staff)man1;
+        //Staff errorMan1 = (Staff)man1;
         
 
         // Staff staff1 = man; 형변환이 없어서 컴파일 오류
