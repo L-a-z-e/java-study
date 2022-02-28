@@ -42,22 +42,22 @@ public class Week3Test3 {
                     }
                     
                 }
-                j++;
+                
             }
             points[i].x = tempX;
             points[i].y = tempY;
-            System.out.println(points[i].x+","+points[i].y);
+            // System.out.println(points[i].x+","+points[i].y); 확인용
             i++;
 
         }
 
         for (int i = 0 ; i < points.length ; i++){
             distance[i] = getDistance(myX,myY,points[i].x,points[i].y);
-            System.out.println("거리는"+distance[i]);    
+           //  System.out.println("거리는"+distance[i]); 확인용     
         }
 
         for (int i = 0 ; i < points.length ; i++){
-            System.out.println("("+points[i].x+","+points[i].y+") =>"+distance[i]);
+            System.out.println("("+(int)points[i].x+","+(int)points[i].y+") =>"+distance[i]);
             double leastDistance = distance[0];
             if (leastDistance > distance[i]){
                 minimumXY = i;
@@ -66,10 +66,10 @@ public class Week3Test3 {
         }
 
         System.out.println("제일 가까운 좌표 :");
-        System.out.println("("+points[minimumXY].x+","+points[minimumXY].y+") =>"+ distance[minimumXY]);
+        System.out.println("("+(int)points[minimumXY].x+","+(int)points[minimumXY].y+") =>"+ distance[minimumXY]);
 
 
-
+        scanner.close();
 
 
 
